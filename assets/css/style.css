@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   transition: 0.3s;
+  letter-spacing: 0.32px;
 }
 
 .container {
@@ -354,4 +355,74 @@ h1 {
   top: 0;
   z-index: -10;
   right: 50%;
+}
+
+/* Toronto Section */
+
+.toronto-section {
+  margin-top: 100px;
+  width: 100%;
+  background: url("/assets/images/toronto-bg.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.toronto-heading h2 {
+  font-size: 82px;
+  font-weight: 800;
+  padding-bottom: 22px;
+}
+
+.toronto-heading h4 {
+  color: #56728c;
+  font-size: 41px;
+  font-weight: 400;
+}
+
+.toronto-row {
+  padding-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toronto-block {
+  width: 30.5%;
+  box-shadow: 0px -3px 70px 0px rgba(0, 0, 0, 0.22);
+  background-color: #56728c;
+  transition: 0.5s;
+}
+
+.toronto-block .image-text {
+  padding: 50px 38px 49px 38px;
+  text-align: center;
+}
+
+.toronto-block h4 {
+  color: #fff;
+  font-size: 33px;
+  padding-bottom: 26px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.toronto-block p {
+  color: #fff;
+  font-size: 23px;
+  line-height: 1.4;
+}
+
+.toronto-block img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.toronto-block:hover {
+  transform: scale(1.05);
+}
+
+.toronto-block:hover img {
+  filter: brightness(0.7);
 }
