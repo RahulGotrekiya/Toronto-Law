@@ -36,8 +36,21 @@ h6 {
   line-height: 1;
 }
 
+h2 {
+  font-size: 82px;
+  font-weight: 800;
+  padding-bottom: 22px;
+}
+
 li {
   list-style: none;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #0b3046;
+  letter-spacing: 0.02em;
 }
 
 /* Header */
@@ -360,18 +373,12 @@ h1 {
 /* Toronto Section */
 
 .toronto-section {
-  margin-top: 100px;
+  padding: 100px 0;
   width: 100%;
   background: url("/assets/images/toronto-bg.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-}
-
-.toronto-heading h2 {
-  font-size: 82px;
-  font-weight: 800;
-  padding-bottom: 22px;
 }
 
 .toronto-heading h4 {
@@ -425,4 +432,73 @@ h1 {
 
 .toronto-block:hover img {
   filter: brightness(0.7);
+}
+
+/* Give up section */
+
+.give-up-section {
+  padding: 100px 0;
+}
+
+.give-up-text {
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.give-up-text .right-text {
+  width: 68.5%;
+}
+
+.right-text p {
+  width: 89%;
+  line-height: 1.8;
+}
+
+.give-up-main {
+  position: relative;
+  padding: 117px 135px 117px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.give-up-bg {
+  width: 68.5%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  max-height: 905px;
+  height: 100%;
+}
+
+.give-up-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.give-up-tile {
+  width: 31%;
+  height: 660px;
+  padding: 72px 50px 72px 62px;
+  background-color: #6082a2;
+  background: url("/assets/images/give-up-block.png");
+}
+
+.give-up-tile h4 {
+  font-size: 48px;
+  color: #fff;
+  padding-bottom: 36px;
+  font-weight: 800;
+  word-spacing: -3px;
+  letter-spacing: 1px;
+}
+
+.give-up-tile p {
+  font-size: 23px;
+  color: #fff;
+  line-height: 35px;
+  font-weight: 300;
 }
