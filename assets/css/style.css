@@ -440,14 +440,14 @@ h1 {
   padding: 100px 0;
 }
 
-.give-up-text {
+.main-text {
   padding-bottom: 90px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.give-up-text .right-text {
+.main-text .right-text {
   width: 68.5%;
 }
 
@@ -501,4 +501,41 @@ h1 {
   color: #fff;
   line-height: 35px;
   font-weight: 300;
+}
+
+/* Disability-Section */
+
+.disability-section {
+  padding: 130px 0;
+}
+
+.disability-section .disability-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.disability-section .main-text {
+  width: 100%;
+  position: absolute;
+}
+
+.disability-content .main-text .disability-text-left {
+  width: 53%;
+  position: absolute;
+  padding-top: 50px;
+}
+
+.disability-section .disability-text-left .left-text h2 {
+  padding-bottom: 70px;
+}
+
+.disability-section .main-text .disability-text-left p {
+  line-height: 1.9;
+  width: 79%;
+}
+
+.disability-section .disability-img {
+  width: 42%;
+  position: relative;
 }
