@@ -53,6 +53,10 @@ p {
   letter-spacing: 0.02em;
 }
 
+.special-text {
+  color: #7da0c0;
+}
+
 /* Header */
 
 header {
@@ -441,7 +445,6 @@ h1 {
 }
 
 .main-text {
-  padding-bottom: 90px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -484,7 +487,7 @@ h1 {
   height: 660px;
   padding: 72px 50px 72px 62px;
   background-color: #6082a2;
-  background: url("/assets/images/give-up-block.png");
+  background: url("../images/give-up-block.png");
 }
 
 .give-up-tile h4 {
@@ -506,7 +509,7 @@ h1 {
 /* Disability-Section */
 
 .disability-section {
-  padding: 130px 0;
+  padding: 135px 0 0 0;
 }
 
 .disability-section .disability-content {
@@ -538,4 +541,170 @@ h1 {
 .disability-section .disability-img {
   width: 42%;
   position: relative;
+  z-index: 1;
+}
+
+.disability-img img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+/* Contact Section */
+
+/* TODO: Testimonials slider Pending */
+
+.contact-section {
+  position: relative;
+  background-color: #0b3046;
+  margin-top: -140px;
+}
+
+.contact-section::after {
+  content: "";
+  position: absolute;
+  top: -152px;
+  width: 100%;
+  height: 100%;
+  background: url("../images/toronto-bg.png");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.contact-main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 120px;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  width: 59.6%;
+  margin-top: -280px;
+}
+
+.contact-right {
+  width: 40%;
+  text-align: right;
+}
+
+.contact-right .normal-btn {
+  background-color: #fff;
+  color: #0b3046;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 36px 140px;
+  display: inline-block;
+  text-align: center;
+  filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
+}
+
+.contact-right .normal-btn:hover {
+  background-color: #56728c;
+  color: #fff;
+}
+
+.review-slider {
+  width: 100%;
+  background-image: url("../images/disability-bg.png");
+  background-color: #56728c;
+  text-align: center;
+  background-size: cover;
+  padding: 90px 120px;
+  filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
+}
+
+.contact-call {
+  margin-top: 145px;
+}
+
+.contact-call h5 {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 40px;
+}
+
+.testimonials-slider {
+  width: 1600px;
+}
+
+.testimonials-content {
+  width: 720px;
+  display: block;
+}
+
+.testimonials-content img {
+  display: inline-block;
+  margin: 0 0 26px 0;
+}
+
+.testimonials-content p {
+  color: #fff;
+  letter-spacing: 2px;
+  font-style: italic;
+  line-height: 1.8;
+  font-size: 23px;
+}
+
+.testimonials-content h6 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  margin-top: 110px;
+  font-size: 18px;
+}
+
+.testimonials-content h6::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 230px;
+  height: 6px;
+  top: -54px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.review-slider button {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  font-size: 0;
+  background-image: url(../images/ArrowLeft.png);
+  width: 46px;
+  height: 46px;
+  margin: 0 0 0 10px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translate(0, 50%);
+  filter: drop-shadow(0px -3px 17.5px rgba(0, 0, 0, 0.26));
+  transition: 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.review-slider .arrow-left {
+  transform: translate(-100%, 50%);
+  margin: 0 0 0 -10px;
+  background-image: url(../images/ArrowLeft.png);
+}
+
+.review-slider .arrow-right {
+  background-image: url(../images/ArrowRight.png);
+}
+
+.review-slider button:hover {
+  margin: 0 0 0 20px;
+  transition: 0.5s;
+}
+
+.review-slider .arrow-left:hover {
+  margin: 0 0 0 -20px;
 }
