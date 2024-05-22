@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: 0.4s;
   letter-spacing: 0.32px;
 }
 
@@ -450,6 +450,10 @@ h1 {
   flex-wrap: wrap;
 }
 
+.give-up-section .main-text {
+  padding-bottom: 80px;
+}
+
 .main-text .right-text {
   width: 68.5%;
 }
@@ -707,4 +711,213 @@ h1 {
 
 .review-slider .arrow-left:hover {
   margin: 0 0 0 -20px;
+}
+
+/* Legal issue section */
+
+.legal-issue-section {
+  background-image: url(../images/legal-issue-bg.png);
+  background-size: cover;
+  background-color: #fff;
+}
+
+.legal-issue-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.legal-issue-left {
+  padding: 190px 0 125px 0;
+}
+
+.left-heading {
+  width: 100%;
+  padding-bottom: 167px;
+}
+
+.legal-issue-left h2 {
+  padding-bottom: 0;
+  line-height: 0.95;
+  letter-spacing: 0.7px;
+}
+
+.legal-issue-left h4 {
+  color: #0b3046;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-top: 45px;
+  letter-spacing: 0.2px;
+}
+
+.call-anytime p {
+  font-size: 34px;
+  letter-spacing: 1.2px;
+  font-style: italic;
+  line-height: 1;
+}
+
+.call-anytime a {
+  color: #0b3046;
+  font-size: 41px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 0.4;
+}
+
+.call-anytime .phone-no {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 1px;
+}
+
+.call-anytime a:hover {
+  color: #56728c;
+}
+
+.legal-issue-right {
+  width: 40%;
+}
+
+.get-help-card {
+  background: #4c6882;
+  padding: 103px 90px 90px 90px;
+  position: relative;
+  color: #fff;
+  background-image: url(../images/get-help-bg.png);
+}
+
+.legal-issue-right img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.legal-issue-right h3 {
+  font-size: 50px;
+  color: #fff;
+  line-height: 1.1;
+  padding-bottom: 74px;
+}
+
+.main-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-form-row .get-help-textarea textarea {
+  height: 92px;
+  margin-top: 11px;
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+.main-form-row .main-form input,
+.get-help-textarea textarea,
+.main-form-row > input {
+  width: 100%;
+  padding: 0 0 24px 0;
+  margin-bottom: 31px;
+  font-size: 21px;
+  color: #fff;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.main-form .form-tile {
+  width: 45%;
+}
+
+.checkbox {
+  font-size: 19px;
+  display: block;
+  position: relative;
+}
+
+.custom-checkbox + label {
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.custom-checkbox + .checkbox-label::before {
+  content: "";
+  margin-top: 2px;
+  margin-right: 15px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox input:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="142.4" height="108.418" viewBox="0 0 142.4 108.418"> <path id="Shape" d="M45.709,85.364,11.727,51.382.4,62.709l45.309,45.309L142.8,10.927,131.473-.4Z" transform="translate(-0.4 0.4)" fill="rgb(11,48,70)" fill-rule="evenodd"/></svg>')
+    center center / 15px no-repeat;
+}
+
+.checkbox label a {
+  font-style: italic;
+  color: #fff;
+  text-decoration: underline 1px solid white;
+  letter-spacing: 0.12px;
+}
+
+.checkbox label a:hover {
+  color: #0b3046;
+  text-decoration: underline #0b3046;
+}
+
+.get-help-btn {
+  margin-top: 60px;
+}
+
+.get-help-btn input[type="submit"] {
+  padding: 35px 140px;
+  font-size: 25px;
+  color: #0b3046;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  line-height: 1;
+  letter-spacing: 0.52px;
+}
+
+.get-help-btn input[type="submit"]:hover {
+  background-color: #56728c;
+  color: #fff;
+  filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
 }
