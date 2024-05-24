@@ -57,6 +57,22 @@ p {
   color: #7da0c0;
 }
 
+.normal-btn {
+  background-color: #003656;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16.83px;
+  padding: 23px 65px;
+  display: inline-block;
+  text-align: center;
+  filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
+}
+
+.normal-btn:hover {
+  background-color: #56728c;
+  color: #fff;
+}
+
 /* Header */
 
 header {
@@ -603,12 +619,10 @@ h1 {
   font-weight: 700;
   font-size: 25px;
   padding: 36px 140px;
-  display: inline-block;
-  text-align: center;
   filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
 }
 
-.contact-right .normal-btn:hover {
+.normal-btn:hover {
   background-color: #56728c;
   color: #fff;
 }
@@ -920,4 +934,117 @@ h1 {
   background-color: #56728c;
   color: #fff;
   filter: drop-shadow(0px -3px 35px rgba(0, 0, 0, 0.19));
+}
+
+/* Footer */
+
+.footer-section {
+  padding: 100px 0 65px 0;
+}
+
+.footer-top {
+  padding-bottom: 43px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.footer-logo {
+  padding: 6px 0 40px 5px;
+
+  color: #000;
+}
+
+.left-col p {
+  padding-bottom: 44px;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+
+.left-col {
+  max-width: 85%;
+}
+
+.footer-col:nth-child(1) {
+  width: 31.8%;
+}
+
+.footer-col:nth-child(2) {
+  padding: 40px;
+  max-width: 415px;
+  border: 5px solid #e1e1e1;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col:nth-child(3) {
+  width: 37%;
+  border: 5px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.footer-col {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.footer-phone a {
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.border-box a {
+  display: flex;
+  align-items: center;
+}
+
+.border-box a:hover,
+.map-link a:hover {
+  color: #56728c;
+}
+
+.border-box img {
+  margin-right: 20px;
+}
+
+.footer-map {
+  overflow: hidden;
+}
+
+.map-link {
+  padding: 24px 28px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.map-link a {
+  letter-spacing: 0px;
+}
+
+.footer-mail {
+  padding: 40px 0;
+}
+
+.footer-bottom {
+  padding-top: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom .left p {
+  font-size: 17px;
+  color: #575759;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons li {
+  padding-left: 10px;
 }
