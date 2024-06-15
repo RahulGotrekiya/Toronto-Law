@@ -627,6 +627,11 @@ h1 {
   color: #fff;
 }
 
+.slider-overflow {
+  width: 720px;
+  overflow: hidden;
+}
+
 .review-slider {
   width: 100%;
   background-image: url("../images/disability-bg.png");
@@ -648,20 +653,27 @@ h1 {
 }
 
 .testimonials-slider {
-  width: 1600px;
+  width: 300%;
+  position: relative;
+  display: flex;
 }
 
-.testimonials-content {
+.slide {
   width: 720px;
+  flex-basis: 100%;
+  /*display: none;*/
+}
+
+.slide.active {
   display: block;
 }
 
-.testimonials-content img {
+.slide img {
   display: inline-block;
   margin: 0 0 26px 0;
 }
 
-.testimonials-content p {
+.slide p {
   color: #fff;
   letter-spacing: 2px;
   font-style: italic;
@@ -669,7 +681,7 @@ h1 {
   font-size: 23px;
 }
 
-.testimonials-content h6 {
+.slide h6 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -678,7 +690,7 @@ h1 {
   font-size: 18px;
 }
 
-.testimonials-content h6::after {
+.slide h6::after {
   content: "";
   background-color: #fff;
   position: absolute;
@@ -718,13 +730,21 @@ h1 {
   background-image: url(../images/ArrowRight.png);
 }
 
-.review-slider button:hover {
-  margin: 0 0 0 20px;
+.arrow-right:active {
+  margin: 0 0 0 40px;
   transition: 0.5s;
 }
 
+.arrow-left:active {
+  margin: 0 0 0 -40px;
+}
+
+.review-slider button:hover {
+  background-color: #56728c;
+}
+
 .review-slider .arrow-left:hover {
-  margin: 0 0 0 -20px;
+  background-color: #56728c;
 }
 
 /* Legal issue section */
