@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1600px) {
+  .container {
+    max-width: 1360px;
+  }
+
+  h1 {
+    font-size: 65px;
+    padding-bottom: 25px;
+    line-height: 75px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .header-menu ul li a {
+    font-size: 35px;
+  }
+
+  .logo a {
+    padding: 25px;
+  }
+
+  .header-info a {
+    font-size: 25px;
+  }
+
+  .toronto-row {
+    padding-top: 70px;
+  }
+
+  .header-info strong.call {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+
+  .header-info p,
+  .header-info p a {
+    font-size: 13px;
+  }
+
+  .hamburger {
+    width: 80px;
+    height: 70px;
+    margin-left: 45px;
+  }
+
+  .hero-video img {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 60%;
+  }
+
+  .hero-content p {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+
+  .hero-section {
+    padding: 165px 0 80px 0;
+  }
+
+  .fees-box {
+    padding: 40px 30px;
+  }
+
+  .fees-box p {
+    font-size: 30px;
+  }
+
+  .fees-box h4 {
+    font-size: 38px;
+  }
+
+  .fees-section {
+    padding-bottom: 50px;
+  }
+
+  .toronto-section {
+    padding: 80px 0;
+  }
+
+  .toronto-heading h4 {
+    font-size: 38px;
+  }
+
+  .give-up-section {
+    padding: 80px 0;
+  }
+
+  .toronto-block .image-text {
+    padding: 40px 38px 50px 38px;
+  }
+
+  .toronto-block h4 {
+    font-size: 28px;
+  }
+
+  .toronto-block p {
+    font-size: 18px;
+  }
+
+  .give-up-tile {
+    height: 600px;
+    padding: 50px;
+  }
+
+  .give-up-tile p {
+    font-size: 20px;
+  }
+
+  .give-up-tile h4 {
+    font-size: 38px;
+    padding-bottom: 18px;
+  }
+
+  .give-up-bg {
+    width: 68.9%;
+    max-height: 780px;
+  }
+
+  .give-up-main {
+    padding: 50px 135px 50px 0;
+  }
+
+  .give-up-tile p {
+    line-height: 30px;
+  }
+
+  .give-up-main {
+    padding: 80px 135px 80px 0;
+  }
+
+  .disability-section {
+    padding: 80px 0 0 0;
+  }
+
+  .disability-section .disability-img {
+    width: 40%;
+  }
+
+  .disability-section .disability-text-left .left-text h2 {
+    padding-bottom: 44px;
+  }
+
+  .disability-content .main-text .disability-text-left {
+    width: 53%;
+    position: absolute;
+    padding-top: 30px;
+  }
+
+  .disability-section .main-text .disability-text-left p {
+    width: 85%;
+  }
+
+  .slide p {
+    font-size: 20px;
+  }
+
+  .review-slider {
+    padding: 80px 45px;
+  }
+
+  .contact-left {
+    width: 61.8%;
+  }
+
+  .slide.active {
+    padding: 0px 35px;
+  }
+
+  .contact-left {
+    margin-top: -300px;
+  }
+
+  .contact-call h5 {
+    font-size: 30px;
+  }
+
+  .contact-right .normal-btn {
+    font-size: 20px;
+    padding: 30px 110px;
+  }
+
+  .legal-issue-left {
+    padding: 150px 0 125px 0;
+  }
+
+  .left-heading {
+    padding-bottom: 70px;
+  }
+
+  .legal-issue-left h4 {
+    font-size: 25px;
+  }
+
+  .call-anytime .phone-no {
+    font-size: 55px;
+  }
+
+  .get-help-card {
+    padding: 70px 60px;
+  }
+
+  .legal-issue-right h3 {
+    padding-bottom: 50px;
+    font-size: 40px;
+  }
+
+  .main-form-row .main-form input,
+  .get-help-textarea textarea,
+  .main-form-row > input {
+    padding: 0 0 15px 0;
+    font-size: 18px;
+  }
+
+  .checkbox {
+    font-size: 14px;
+  }
+
+  .call-anytime p {
+    font-size: 30px;
+  }
+
+  .call-anytime a {
+    font-size: 33px;
+  }
+
+  .get-help-btn input[type="submit"] {
+    font-size: 20px;
+    padding: 30px 110px;
+  }
+
+  .normal-btn {
+    font-size: 14px;
+  }
+
+  .footer-col {
+    font-size: 18px;
+  }
+
+  .border-box img {
+    width: 38px;
+  }
+
+  .footer-phone a {
+    font-size: 30px;
+  }
+
+  .map-link {
+    font-size: 28px;
+  }
+
+  .footer-map {
+    height: 200px;
+  }
+
+  .footer-mail {
+    padding: 45px 0;
+  }
+
+  .left-col p {
+    padding-bottom: 35px;
+  }
+
+  .footer-bottom .left p {
+    font-size: 15px;
+  }
+
+  .footer-section {
+    padding: 100px 0 50px 0;
+  }
+}

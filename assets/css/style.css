@@ -609,7 +609,7 @@ h1 {
 }
 
 .contact-right {
-  width: 40%;
+  width: 30%;
   text-align: right;
 }
 
@@ -886,6 +886,7 @@ h1 {
 .custom-checkbox + label {
   cursor: pointer;
   display: inline-flex;
+  align-items: center;
 }
 
 .custom-checkbox + .checkbox-label::before {
