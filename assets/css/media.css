@@ -111,10 +111,6 @@
     padding: 50px;
   }
 
-  .give-up-tile p {
-    font-size: 20px;
-  }
-
   .give-up-tile h4 {
     font-size: 38px;
     padding-bottom: 18px;
@@ -131,6 +127,7 @@
 
   .give-up-tile p {
     line-height: 30px;
+    font-size: 20px;
   }
 
   .give-up-main {
@@ -156,7 +153,7 @@
   }
 
   .disability-section .main-text .disability-text-left p {
-    width: 85%;
+    width: 95%;
   }
 
   .slide p {
@@ -176,7 +173,7 @@
   }
 
   .contact-left {
-    margin-top: -300px;
+    margin-top: -275px;
   }
 
   .contact-call h5 {
@@ -275,5 +272,277 @@
 
   .footer-section {
     padding: 100px 0 50px 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  h2 {
+    font-size: 48px;
+    padding-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .header-info a {
+    font-size: 20px;
+  }
+
+  .header-info strong.call {
+    font-size: 11px;
+  }
+
+  .logo a {
+    padding: 28px;
+  }
+
+  .logo img {
+    width: 280px;
+  }
+
+  .header-info p,
+  .header-info p a {
+    font-size: 12px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+    line-height: 59px;
+  }
+
+  .play-video {
+    font-size: 14px;
+  }
+
+  .play-video a img {
+    width: 40px;
+  }
+
+  .hamburger {
+    width: 75px;
+    height: 65px;
+  }
+
+  .fees-box h4 {
+    font-size: 28px;
+  }
+
+  .fees-box p {
+    font-size: 25px;
+  }
+
+  .toronto-section {
+    padding: 50px 0;
+  }
+
+  .toronto-block h4 {
+    font-size: 23px;
+    padding-bottom: 15px;
+  }
+
+  .toronto-block p {
+    font-size: 15px;
+  }
+
+  .give-up-section {
+    padding: 50px 0;
+  }
+
+  .give-up-bg {
+    max-height: 700px;
+    width: 69.5%;
+  }
+
+  .toronto-heading h4 {
+    font-size: 28px;
+  }
+
+  .toronto-row {
+    padding-top: 60px;
+  }
+
+  .give-up-section .main-text {
+    padding-bottom: 60px;
+  }
+
+  .give-up-tile p {
+    line-height: 26px;
+    font-size: 15px;
+  }
+
+  .give-up-tile h4 {
+    font-size: 30px;
+  }
+
+  .give-up-tile {
+    height: 455px;
+  }
+
+  .disability-section .disability-text-left .left-text h2 {
+    padding-bottom: 25px;
+  }
+
+  .slide p {
+    font-size: 15px;
+  }
+
+  .slide h6 {
+    font-size: 14px;
+  }
+
+  .slider-overflow {
+    width: 600px;
+  }
+
+  .slide.active {
+    padding: 0;
+  }
+
+  .review-slider {
+    padding: 65px 60px;
+  }
+
+  .disability-section .disability-img {
+    width: 40.5%;
+  }
+
+  .contact-call h5 {
+    font-size: 28px;
+  }
+
+  .contact-right .normal-btn {
+    font-size: 18px;
+    padding: 25px 100px;
+  }
+
+  .disability-section {
+    padding: 50px 0 0 0;
+  }
+
+  .contact-call {
+    margin-top: 110px;
+  }
+
+  .legal-issue-left {
+    padding: 100px 0;
+  }
+
+  .legal-issue-left h4 {
+    padding-top: 40px;
+    font-size: 22px;
+  }
+
+  .call-anytime p {
+    font-size: 25px;
+  }
+
+  .call-anytime .phone-no {
+    font-size: 45px;
+  }
+
+  .call-anytime a {
+    font-size: 27px;
+  }
+
+  .legal-issue-right h3 {
+    padding-bottom: 40px;
+    font-size: 35px;
+  }
+
+  .get-help-card {
+    padding: 45px 50px;
+  }
+
+  .main-form-row .main-form input,
+  .get-help-textarea textarea,
+  .main-form-row > input {
+    padding: 0 0 15px 0;
+    font-size: 16px;
+  }
+
+  .custom-checkbox + .checkbox-label::before {
+    width: 18px;
+    height: 18px;
+  }
+
+  .get-help-btn {
+    margin-top: 35px;
+  }
+
+  .get-help-btn input[type="submit"] {
+    font-size: 18px;
+    padding: 25px 0;
+  }
+
+  .footer-logo img {
+    width: 250px;
+  }
+
+  .footer-logo {
+    padding: 6px 0 30px 5px;
+  }
+
+  .left-col p {
+    padding-bottom: 30px;
+  }
+
+  .normal-btn {
+    font-size: 12px;
+    padding: 18px 50px;
+  }
+
+  .footer-col:nth-child(2) {
+    padding: 20px 30px 20px 30px;
+    max-width: 350px;
+  }
+
+  .footer-col {
+    font-size: 16px;
+  }
+
+  .border-box img {
+    width: 35px;
+  }
+
+  .footer-phone a {
+    font-size: 28px;
+  }
+
+  .map-link {
+    font-size: 25px;
+  }
+
+  .footer-map iframe {
+    height: 90%;
+  }
+
+  .map-link {
+    padding: 18px 20px;
+  }
+
+  .footer-col:nth-child(3) {
+    height: 285px;
+  }
+
+  .social-icons li img {
+    width: 28px;
+  }
+
+  .footer-bottom .left p {
+    font-size: 13px;
+  }
+
+  .footer-mail {
+    padding: 35px 0;
   }
 }
